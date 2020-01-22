@@ -6,3 +6,4 @@ let multiply = num1 * num2;
 
 let random = Math.random(0)
 let mod = 9 % 5
+let max = Math.max(20)
