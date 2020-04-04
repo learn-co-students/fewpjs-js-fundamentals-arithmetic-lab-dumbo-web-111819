@@ -1,6 +1,5 @@
 const chai = require('chai')
 const expect = chai.expect;
-
 describe('index.js', function() {
   describe('multiply', function() {
     it("is an equation whose multiplied results will equal 62", function() {
