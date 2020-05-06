@@ -1,13 +1,19 @@
-// Create a variable called multiply that will multiply the variables num1 and num2 whose results will equal "62".
-// Create a variable called random that will generate a random integer greater than 0.
-// Create a variable called mod set to an equation whose remainder is equal to "4".
-// Create a variable called max that will return "20" as the highest number in the set.
+// let num1 = 2;
+// let num2 = 31;
+// let multiply = num1 * num2;
+
+// let random = Math.floor(Math.random() * 10) + 1;
+ 
+// let mod = 19 % 5
+// let max = Math.max(17, 12, 19, 20, 5);
 
 
-let num1 = 2;
-let num2 = 31;
-let multiply = num1 * num2;
+const robots = [
+    { name: 'Johnny 5', modes: 5, isActivated: false, },
+    { name: 'C3PO', modes: 3, isActivated: false, },
+    { name: 'Sonny', modes: 2.5, isActivated: false, },
+    { name: 'Baymax', modes: 1.5, isActivated: false, },
+  ];
+   
 
-let random = Math.floor(Math.random() * 10) + 1;
-let mod = 19 % 5
-let max = Math.max(17, 12, 19, 20, 5);
+  console.log(activatedRobots);
